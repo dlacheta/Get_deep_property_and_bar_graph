@@ -7,3 +7,15 @@
 - After you complete the exercise, provide notes below on how your code can be ran whether it be by simply opening a index.html file or through an npm command
 
 ## Candidate Notes:
+
+To run this code, You need to install live-server globally with command: 
+
+```ssh
+npm install -g live-server
+```
+
+after that, open command line, change path to this folder and enter command:
+
+```ssh
+live-server
+```

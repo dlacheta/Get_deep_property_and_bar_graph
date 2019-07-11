@@ -11,3 +11,15 @@
 - After you complete the exercise, provide any notes on your code below such as how to run your example
 
 ## Candidate Notes:
+
+To run this code, open command line, change path to this folder and enter command:
+
+```ssh
+node getDeepProperty.js
+```
+
+Default test object is: {person: {name: {first: 'FirstName', middleInitial: 'I', lastName: 'LastName'}}}
+
+Default test path is: 'person.name.lastName'
+
+To change default data for testing edit file `getDeepProperty.js`, change value of `testObject` and `testPath`, save the file and run this code on command line.
